@@ -18,3 +18,16 @@ Downloads/
 .ssh/
 .viminfo
 .gitconfig
+.audacity-data/
+.config/JetBrains/
+.config/dconf/
+.config/godot/
+.config/htop/
+.config/menus/
+.config/vlc/
+.gnome/
+.gnupg/
+.ivy2/
+.java/
+.sbt/
+dev/
