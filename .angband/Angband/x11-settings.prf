@@ -1,0 +1,15 @@
+# Angband X11 settings
+
+TERM_WINS=1
+
+# Term 0
+AT_X_0=0
+AT_Y_0=0
+COLS_0=127
+ROWS_0=70
+IBOX_0=1
+IBOY_0=1
+FONT_0=10x20
+TILE_WIDTH_0=10
+TILE_HEIGHT_0=20
+

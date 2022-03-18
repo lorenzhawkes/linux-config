@@ -1,0 +1,9 @@
+{
+race: "Human",
+class: "Priest",
+mapName: "Angband",
+dLvl: "28",
+cLvl: "32",
+isDead: "0",
+killedBy: "(saved)"
+}
