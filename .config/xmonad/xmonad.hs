@@ -106,7 +106,7 @@ convertText f s1 = T.unpack (f (T.pack s1))
 myLogHook :: DC.Client -> PP
 myLogHook dbus = def {
     ppOutput = D.send dbus
-    , ppTitle = convertText (lemonbarFormat [ Foreground windowTitleColor ] . shorten 50)
+    , ppTitle = convertText (lemonbarFormat [ Foreground windowTitleColor ] . shorten 80)
     , ppSep = " | "
     , ppCurrent = convertText (lemonbarFormat [ Foreground activeWorkspaceColor ] . wrap "[" "]")
     , ppHidden = convertText (lemonbarFormat [ Foreground inactiveWorkspaceColor ])
