@@ -1,8 +1,8 @@
 set -x EDITOR vim
 
-# add local bin
-# add hipcc to the path (for gpu rendering in blender)
-set -x PATH /home/lorenz/.local/bin /home/lorenz/dev/apps/zig /opt/rocm-5.4.0/bin $PATH
+fish_add_path -p -P /home/lorenz/.local/bin   # add local bin
+fish_add_path -p -P /home/lorenz/dev/apps/zig # add zig
+fish_add_path -p -P /opt/rocm-5.4.0/bin       # add hipcc to the path (for gpu rendering in blender)
 
 if test -z (pgrep ssh-agent | string collect)
 	eval (ssh-agent -c)
