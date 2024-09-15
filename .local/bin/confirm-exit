@@ -1,0 +1,11 @@
+#!/usr/bin/env fish
+
+set result (echo 'Yes
+No' | wofi --dmenu --prompt "Exit Hyprland?" --width=20% --height=10%)
+
+
+if test $result = "Yes"
+
+	hyprctl dispatch exit
+
+end
