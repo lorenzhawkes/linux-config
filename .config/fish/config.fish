@@ -1,4 +1,5 @@
-set -x EDITOR vim
+set -x EDITOR nvim
+set -x VISUAL nvim
 
 fish_add_path -p -P /home/lorenz/.local/bin   # add local bin
 fish_add_path -p -P /home/lorenz/dev/apps/zig # add zig
@@ -12,4 +13,5 @@ end
 
 starship init fish | source
 
-alias vi=vim
+alias vi=nvim
+alias vim=nvim
