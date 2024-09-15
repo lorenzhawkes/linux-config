@@ -27,7 +27,9 @@ Desktop/
 .stack-work
 .stack
 .lesshst
-.local/
+.local/lib
+.local/share
+.local/state
 .nv/
 .pki/
 .ssh/
