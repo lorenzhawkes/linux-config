@@ -626,7 +626,7 @@ require('lazy').setup({
         --
 
         zls = {
-          cmd = { vim.fn.expand '$HOME/dev/zig-tools/zls/zig-out/bin/zls' },
+          cmd = { vim.fn.expand '$HOME/dev/zigtools/zls/zig-out/bin/zls' },
         },
 
         lua_ls = {
