@@ -1,11 +1,8 @@
 window {
 	margin: 0px;
-/*	border: 2px solid #33ccff;*/
-    border: none;
-	background-color: #282a36;
-/*    background-color: transparent;*/
+	border: none;
+	background: rgba(40,42,54,0.8);
 	border-radius: 15px;
-	opacity: 0.9;
 }
 
 *:focus {
@@ -19,7 +16,7 @@ window {
 
 #input {
 	margin: 5px;
-	border: 2px solid #33ccff;
+	border: 2px solid #eed49f;
 	color: #f8f8f2;
 	background-color: #282a36;
 	border-radius: 15px;
@@ -28,14 +25,12 @@ window {
 #inner-box {
 	margin: 5px;
 	border: none;
-/*	background-color: #282a36;*/
 	border-radius: 10px;
 }
 
 #outer-box {
 	margin: 5px;
 	border: none;
-/*	background-color: #282a36;*/
 	border-radius: 10px;
 }
 
@@ -67,7 +62,7 @@ window {
 }
 
 #entry:selected {
-	background-color: #33ccff;
+	background-color: #eed49f;
 	border: none;
 }
 

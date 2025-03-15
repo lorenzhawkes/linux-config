@@ -11,7 +11,10 @@ if test -z (pgrep ssh-agent | string collect)
 	set -Ux SSH_AGENT_PID $SSH_AGENT_PID
 end
 
-starship init fish | source
-
-alias vi=nvim
-alias vim=nvim
+if status is-interactive
+	# Commands to run in interactive sessions can go here
+	set fish_greeting
+	starship init fish | source
+	alias vi=nvim
+	alias vim=nvim
+end
